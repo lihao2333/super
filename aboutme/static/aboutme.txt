@@ -1,0 +1,27 @@
+me
+    skill
+        python
+            主力语言
+            积累一些优雅的写法
+            会协程,装饰器等高级特性
+        django
+            主力web框架
+            使用sqlite,redis数据库
+            后台管理,用户管理
+        DB
+            postgresql,redis,sqlite3,mysql都用过,但是不深入.
+            skill
+                sql
+                索引,事物,锁
+        linux
+            基本命令非常熟悉
+            shell
+                常用来写自动化脚本
+            文本处理
+                awk,sed,jq 积累了一些技巧
+            git+docker+vim+tmuxnitor+pycharm的开发模式
+        算法
+            各种排序
+            动态规划
+            常用数据结构
+            深搜
