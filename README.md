@@ -3,7 +3,7 @@
 访问(http://lihao7086.com)
 ## Task List
 - [ ] 个人展示
-    - [x] 个人技能展示[思维导图] (http://lihao7086/aboutme/skill)
+    - [x] 个人技能展示[思维导图] (http://lihao7086.com/aboutme/skill/)
     - [ ] 个人项目展示[思维导图]
 - [ ] 公共服务
 - [ ] 导航栏
