@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html -->
+{%load static%}
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="stndz-style"></style>
+<title>Home</title>
+<!-- Meta -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">    
+<link rel="shortcut icon" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html">  
+<link href="{%static 'resume/css'%}" rel="stylesheet" type="text/css">
+<!-- Global CSS -->
+<link rel="stylesheet" href="{%static 'resume/bootstrap.min.css'%}">   
+<!-- Plugins CSS -->
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<!-- Theme CSS -->  
+<link id="theme-style" rel="stylesheet" href="{%static 'resume/styles.css'%}">
+
+<link rel="icon" href="data:image/png;base64,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" type="image/png" sizes="256x256"><link rel="icon" href="http://demo.cssmoban.com/favicon.ico"></head>
+<body class="sticky-page-nav">
+    <div class="adcenter"><script src="{%static 'resume/ggad2_728x90.js'%}"></script><link type="text/css" rel="stylesheet" href="{% static 'resume/astyle.css'%}">
+<div align="center">
+<script async="" src="{%static 'resume/f.txt'%}"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1542822386688301" data-ad-slot="5966457456" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+
+<header class="header">
+	<div class="top-bar container-fluid">
+		<div class="actions">
+			<a class="btn hidden-xs" href="mailto:903371710@qq.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
+			<a class="btn" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+		</div><!--//actions-->
+		<ul class="social list-inline">
+			<li><a href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<li><a href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			<li><a href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+			<li><a href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+		</ul><!--//social-->
+	</div><!--//top-bar-->
+	
+	<div class="intro">
+		<div class="container text-center">
+			<img class="profile-image" src="{%static 'resume/me2.png'%}" alt="">
+			<h1 class="name">李昊</h1>
+			<div class="title">python后端工程师</div>
+			<div class="profile">
+                <p>我是北京邮电大学通信工程大四在读学生.在大二的时候,因为和自己预期差距比较大,选择了主动留级.</p>
+                <p>留级的一年中,我参加了软硬件个方面的比赛,想成为python后端工程师,争取做到全栈.</p>
+                <p>我喜欢开源文化,github上有比赛的项目也有自己的小工具,模板等等</p>
+                <p>我拥抱社区,我在知乎(安静的木小昊)上有一些技术回答, 我喜欢在社区中留下自己的价值</p>
+                <p>我喜欢用技术让生活不一样, 我做了很多小工具, 旅行规划的,表白的,自动唱歌的. 我觉得技术就是应该让生活更加美好</p>
+			</div><!--//profile-->
+		</div><!--//container-->
+	</div><!--//intro-->
+	
+	<div class="contact-info">
+		<div class="container text-center">
+			<ul class="list-inline">
+				<li class="email"><i class="fa fa-envelope"></i><a href="mailto:903371710@qq.com">903371710@qq.com</a></li>
+				<li><i class="fa fa-phone"></i> <a href="tel:18810658188">18810658188</a></li>
+				<li class="website"><i class="fa fa-globe"></i><a href="http://lihao7086.com" target="_blank">http://lihao7086.com</a></li>
+				<li class="website"><i class="fa fa-github"></i><a href="https://github.com/lihao2333" target="_blank">https://github.com/lihao2333</a></li>
+				<li class="website"><i class="fa fa-weixin"></i><a href="#" target="_blank">lihao1996</a></li>
+                <li class="website"><i class="fa fa-zhihu"></i><a href="https://www.zhihu.com/people/lihao2333" target="_blank"><b>知乎</b>安静的木小昊</a></li>
+			</ul>
+		</div><!--//container-->
+	</div><!--//contact-info-->
+	
+	<div class="page-nav-space-holder hidden-xs">
+		<div id="page-nav-wrapper" class="page-nav-wrapper text-center fixed">
+			<div class="container">
+				<ul id="page-nav" class="nav page-nav list-inline">
+					<li class=""><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#experiences-section">Experiences</a></li>
+					<li class=""><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#eudcation-section">Education</a></li>
+					<li class="active"><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#skills-section">Skills</a></li>
+					<li class=""><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#testimonials-section">Testimonials</a></li>
+					<li class=""><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#portfolio-section">Github</a></li>
+					<li class=""><a class="scrollto" href="http://demo.cssmoban.com/cssthemes5/cpts_1014_bot/index.html#contact-section">Contact</a></li>
+				</ul><!--//page-nav-->
+			</div>
+		</div><!--//page-nav-wrapper-->
+	</div>
+	
+</header><!--//header-->
+
+<div class="wrapper container">
+	<section id="experiences-section" class="experiences-section section">
+		<h2 class="section-title">Work Experiences</h2>
+		<div class="timeline">
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">毕昇杯全国大学生电子设计大赛一等奖--魔方还原机器人</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京 </div>
+				</div>
+				<div class="job-meta">
+					<div class="title">除了颜色识别外的所有工作</div>
+					<div class="time">2016 - 2017</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+                    这是一个从软件到硬件100%自主创新完成的魔方还原机器人.<br>
+                    <video width="320" height="240" controls>
+                          <source src="{%static 'resume/mofang.mp4'%}" type="video/mp4">
+                            <source src="{%static 'resume/mofang.mp4'%}" type="video/ogg">
+                              Your browser does not support the video tag.
+                    </video>
+					<ul>
+                        <li>识别:三个摄像头采集照片,通过k近邻算法识别颜色</li>
+						<li>还原:用C++实现了CFOP算法,优化后80步还原魔方,实物在20s内</li>
+                        <li>控制:电脑发给arduino控制序列,arduino-&gt;步进电机-&gt;-机械臂&gt;-魔方</li>
+                        <li>硬件:用亚克力板切出6个面作为框架, 机械臂用3D打印</li>
+					</ul>
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">天翼云开发者大赛冠军--预测人流量</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>厦门大学</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">算法,数据可视化</div>
+					<div class="time">2016.12-2017.1</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>主办方提供某地区2个月的人流量随时间变化情况,让我们预测未来两周的人流量随时间变化</p> 
+                    <p>这本质上是一个地点+时间两个维度的预测,我们主要采用了局部加权线性回归和广义回归神经网络</p>
+                    <ul>
+                        <li>观察到80%的人流量集中在20%的点上,我们先用局部加权线性回归预测这些核心点,然后将整个地图按照这些核心点进行划分</li>
+                        <li>将每个划分的小点距离核心点的距离向量作为特征, 同时加入天气等特征放入广义回归神经网络中</li>
+                        <li>为了直观,我们用matplotlib画出一张张图拼接为一个视频, 即展示了人流量分布随时间的变化,又展示了总人流量随时间的变化</li>
+                    </ul>
+                    这是对我们获奖的<a href="http://www.sohu.com/a/211933290_391366">报导</a>
+                    <img src="{%static 'resume/tianyiyun.jpeg'%}" alt="Italian Trulli "style="height:400px;weight:100px">
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">Intel杯全国嵌入式大赛二等奖--风格迁移系统</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>上海交通大学</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">web,算法,硬件</div>
+					<div class="time">2018.4-2018.6</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>基于开源的neural-sytle和fast-neural-style算法,我们重写了neural-sytle算法, 在这两个基础上添加了web层和硬件加速层</p> 
+                    <ul>
+                        <li>web层:添加了用户的上传,浏览.还有与模型的交互</li>
+                        <li>算法层:重新实现了neural-sytle算法,针对我们的项目进行了一些改动</li>
+                        <li>算法层:将生成的图片利用ffmpeg合成为动图,演示渐变效果</li>
+                        <li>硬件加速层:基于主办方提供的upsquared板,我们成功的将nvidia gtx1060加速器对其进行了加速</li>
+                    </ul>
+                    开源地址在我的<a href="https://github.com/lihao2333/neural_web">github</a>
+                    <img src="{%static 'resume/intel.png'%}" alt="Italian Trulli "style="height:300px;width:600px">
+                    <img src="{%static 'resume/inte2.jpeg'%}" alt="Italian Trulli "style="height:300px;width:350px">
+                    <img src="{%static 'resume/intel3.jpeg'%}" alt="Italian Trulli "style="height:300px;width:350px">
+                    <video style="height:300px;width:400px" controls>
+                          <source src="{%static 'resume/intel.mp4'%}" type="video/mp4">
+                    </video>
+
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">速感科技</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">嵌入式工程师实习生</div>
+					<div class="time">2017.12-2018.1</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>负责把旧代码在新机器上跑通,给新机器安装各种环境(表现不佳)</p> 
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">deecamp人工智夏令营第三名(最佳demo奖)--AI有嘻哈</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京大学</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">前端</div>
+					<div class="time">2018.7-2018.8</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>我们基于seq-gan生成嘻哈歌词,我独立负责前端部分(也有队友的建议和帮助),我做了如下工作</p> 
+                    <ul>
+                        <li>酷炫风格的页面展示</li>
+                        <li>基于图灵测试的互动选择页面</li>
+                        <li>文字转音乐的一个自动化脚本</li>
+                        <li>音乐与歌词的同步</li>
+                        <li>用shell封装uai-train 的部署,提高效率</li>
+                        </ul>
+                        这里有相关<a href="https://t.cj.sina.com.cn/articles/view/2962715680/b097742002700g3lm">报导</a>
+                        这里有我们生成的<a href="https://www.ximalaya.com/yinyue/16957080/">歌曲</a><br>
+                    <img src="{%static 'resume/aixiha.jpg'%}" alt="Italian Trulli "style="height:300px;width:500px">
+                    <img src="{%static 'resume/aixiha2.jpg'%}" alt="Italian Trulli "style="height:300px;width:500px">
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">悦橙自然网站门户外包</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">全栈</div>
+					<div class="time">2018.9-now</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>这是一个户外教育机构,我主要作如下工作</p> 
+                    <ul>
+                        <li>按照甲方要求进行页面设计修改</li>
+                        <li>将所有的内容存在关系型数据库中,甲方可以方便的通过后台进行修改 </li>
+                        <li>将甲方的公众号里面的所有文章同步到网站上(该功能还为做完)</li>
+                        </ul>
+                       <p>通过django的后台管理二次开发功能,实现后台管理.</p>
+                       <p>由于微信的反爬虫,同步不太好做,尝试用anyproxy的中间人攻击没能成功,现在尝试用adb控制手机,逐条将信息发送电脑,通过itchart收到url列表,逐个爬虫,然后进行格式化</p>
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">ImageCup---掌纹诊断系统</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">后端,图像处理</div>
+					<div class="time">2018.2-2018.4</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+					<p>用户通过小程序,上传手掌图片,服务器收到后,一方面提取掌纹按照中医理论给出建议,另一方面和数据库中的数据进行对比,给出对疾病的概率预测</p> 
+                    <ul>
+                        <li>小程序:上传图片给服务器</li>
+                        <li>服务器:nginx+django </li>
+                        <li>图像处理:用opencv提取掌纹特征,目前只能提取8线(一条竖线).</li>
+                        </ul>
+                    <img src="{%static 'resume/ic1.jpeg'%}" alt="Italian Trulli "style="height:700px;width:300px">
+                        <p>没有完全做完,但是完成了工程框架和部分特征的提取,托管在<a href="https://github.com/KiyomiHan/palm_dealing">github</a></p>
+                        <p>我们的宣传片在<a href="http://v.youku.com/v_show/id_XMzQ5NjY4NzQxNg==.html?spm=a2hzp.8244740.0.0">这里</a>(小姐姐倾力制作)</p>
+				</div><!--//job-desc-->
+			</div><!--//item-->
+
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">基于树莓派的身份识别三合一系统</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">数据库,给UI提供接口</div>
+					<div class="time">2017.6-2018.6</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+                    <p>这是一个三合一的身份是别系统,应用场景一个是断网情况下的考场,一个是北邮的讲座签到</p>
+                    <ul>
+                        <li>整个是C/S体系,采用postgresql,主要是主从间entity和record之间的通信</li>
+                        <li>考虑断网环境下的一些行为</li>
+                        <li>讲座签到是签到-操作人员flag-二次签到的模式</li>
+                        <li>给UI组定义接口规范</li>
+                    </ul>
+                    <p>项目托管在<a href="https://github.com/KiyomiHan/raspberry">github</a></p>
+				</div><!--//job-desc-->
+
+			<div class="item">
+				<div class="work-place">
+					<h3 class="place">基于树莓派和rtlsdr的校园定位系统</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>北京</div>
+				</div>
+				<div class="job-meta">
+					<div class="title">全栈</div>
+					<div class="time">2018.1-now</div>
+				</div><!--//job-meta-->
+				<div class="job-desc">
+                    <p>这是一个c/s系统,server给部署在校园不同位置的client发信号,说明想在某收某可采集某种信号,届时通过gps受时的client就会发送信号给server.由于已知client的地理位置,所以能够对信号源作出定位</p>
+                    <ul>
+                        <li>gps触发定时行为</li>
+                        <li>c/s系统的网站搭建</li>
+                        <li> 管理者界面</li>
+                        <li>为了需求对rtlsdr源码的一些改动 </li>
+                    </ul>
+				</div><!--//job-desc-->
+			</div><!--//item-->
+			
+		</div><!--//timeline-->
+		
+	</section><!--//section-->
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"></a></div>
+	<section id="eudcation-section" class="education-section section">
+		<h2 class="section-title">Education</h2>
+		<div class="row">
+			<div class="item col-xs-12 col-sm-4">
+				<div class="item-inner">
+					<h3 class="degree">通信工程</h3>
+					<div class="education-body">
+                        北京邮电大学本科
+					</div><!--//education-body-->
+					<div class="time">2014-2019</div>
+					<div class="desc">
+                        综合排名50%.有些课程比较低,但是部分实践类的课程分数比较高,几门95+
+					</div>
+				</div><!--//item-inner-->
+			</div><!--//item-->
+			
+		</div><!--//row-->
+	</section><!--//section-->
+	
+	
+	<section id="skills-section" class="skills-section section text-center">
+		<h2 class="section-title">Professional Skills</h2>
+		<div class="top-skills">
+			<h3 class="subtitle">Top Skills</h3>
+			<div class="row">
+				<div class="item col-xs-12 col-sm-4">
+					<div class="item-inner">
+						<div class="chart-easy-pie text-center">
+							<div class="chart-theme-1 chart" data-percent="50"><span>50</span>%<canvas height="110" width="110"></canvas></div>
+						</div>
+						<h4 class="skill-name">Python &amp; Django</h4>
+						<div class="level">菜鸟,2年</div>
+						<div class="desc">
+                            基本所有项目都用python开发,经常会积累写python的小技巧,也会学习python的许多高级特性.但凡设计web应用的,我都用django,有些自己的套路.
+						</div>
+					</div><!--//item-inner-->
+				</div><!--//item-->
+				<div class="item col-xs-12 col-sm-4">
+					<div class="item-inner">
+						<div class="chart-easy-pie text-center">
+							<div class="chart-theme-1 chart" data-percent="50"><span>50</span>%<canvas height="110" width="110"></canvas></div>
+						</div>
+						<h4 class="skill-name">linux&amp;git&amp;docker&amp;shell</h4>
+						<div class="level">菜鸟,2年</div>
+						<div class="desc">
+                            在linux下的一些命令花的时间不少,形成了许多自己的操作习惯,我在linux的上的开发效率应该不低. 版本管理用git, 开发环境比较复杂是就用docker封装开发环境
+						</div>
+					</div><!--//item-inner-->
+				</div><!--//item-->
+				<div class="item col-xs-12 col-sm-4">
+					<div class="item-inner">
+						<div class="chart-easy-pie text-center">
+							<div class="chart-theme-1 chart" data-percent="20"><span>20</span>%<canvas height="110" width="110"></canvas></div>
+						</div>
+						<h4 class="skill-name">html/js/css</h4>
+						<div class="level">菜菜鸟,半年</div>
+						<div class="desc">
+                            项目需要,自己必须掌握许多前端知识,经常要自己做前端.
+						</div>
+					</div><!--//item-inner-->
+				</div><!--//item-->
+			</div><!--//row-->
+		</div><!--//top-skills-->
+		
+		<div class="other-skills">
+			<h3 class="subtitle">Other Skills</h3>
+			<div class="misc-skills">
+				<span class="skill-tag">awk/seq/jq</span>
+				<span class="skill-tag">ffmpeg/imagick</span>
+				<span class="skill-tag">vim/tmuxnitor/latex</span>
+				<span class="skill-tag">anyproxy</span>
+                <br>
+				<span class="skill-tag">matlab/C/C++/java(base)</span>
+				<span class="skill-tag">qt/tkinter/numpy/mapplotlib/xpath</span>
+                <br>
+			</div>
+            <br>
+			<h3 class="subtitle">Algorithm</h3>
+			<div class="misc-skills">
+				<span class="skill-tag">lwlr</span>
+				<span class="skill-tag">neural-style</span>
+				<span class="skill-tag">fast-neural-sytle</span>
+
+				<br>
+			</div>
+		</div><!--//other-skills-->
+		
+	</section><!--//skills-section-->
+	
+	<section id="testimonials-section" class="testimonials-section section">
+		<h2 class="section-title">Testimonials</h2>
+		
+		<div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
+			
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#testimonials-carousel" data-slide-to="1"></li>
+				<li data-target="#testimonials-carousel" data-slide-to="2"></li>
+			</ol>
+			
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<blockquote class="quote">      
+						<i class="fa fa-quote-left"></i>                            
+						<p>James is an excellent software engineer and he is passionate about what he does. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse porttitor metus eros.</p>
+					</blockquote>    
+					<div class="source">
+						<div class="name">Rob Olson</div>
+						<div class="position">Product Manager, Apple</div>
+					</div><!--//source-->   
+												   
+				</div><!--//item-->
+				<div class="item">
+					<blockquote class="quote">
+						<p><i class="fa fa-quote-left"></i>
+						Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.</p>
+						
+					</blockquote>
+					<div class="source">
+						<div class="name">Christina Jensen</div>
+						<div class="position">Senior Developer, Twitter</div>
+					</div><!--//source-->   
+		   
+				</div><!--//item-->
+				<div class="item">
+					<blockquote class="quote">
+						<p><i class="fa fa-quote-left"></i>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+					</blockquote>       
+					<div class="source">
+						<div class="name">Austin Ward</div>
+						<div class="position">CEO, Startup Hub</div>
+					</div><!--//source-->          
+				</div><!--//item-->
+				
+			</div><!--//carousel-inner-->
+		</div><!--//testimonials-carousel-->
+		
+	</section><!--//section-->
+	
+	
+	<section id="portfolio-section" class="portfolio-section section">
+		<h2 class="section-title">My Github</h2>
+		<ul id="filters" class="filters clearfix">
+			<li class="type" data-filter="*">All</li>
+			<li class="type" data-filter=".backend">Back-end</li>
+			<li class="type active" data-filter=".frontend">Front-end</li>
+			<li class="type active" data-filter=".algorthm">Algorthm</li>
+			<li class="type active" data-filter=".tool">Tool</li>
+		</ul><!--//filters-->
+		<div class="items-wrapper isotope row" style="position: relative; height: 624px;">
+			<div class="item frontend backend algorthm col-md-3 col-xs-6 " style="position: absolute; left: 0px; top: 0px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-intel.jpg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/neural_web">风格迁移系统</a></h3>
+                        <div class="meta">Django/Docker/Torch</div>
+						<div class="action"><a href="https://github.com/lihao2333/neural_web">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/neural_web"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item backend col-md-3 col-xs-6 " style="position: absolute; left: 0px; top: 0px; display: none;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/portfolio-2.jpg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/KiyomiHan/raspberry">基于树莓派的三合一人脸识别系统</a></h3>
+						<div class="meta">Pyqt/Postgresql</div>
+						<div class="action"><a href="https://github.com/KiyomiHan/raspberry">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/KiyomiHan/raspberry"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item  tool  col-md-3 col-xs-6 " style="position: absolute; left: 270px; top: 0px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-uai.jpeg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/TP_uai_train">uai-train脚本</a></h3>
+						<div class="meta">Shell/Docker</div>
+						<div class="action"><a href="https://github.com/lihao2333/TP_uai_train">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/TP_uai_train"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item tool col-md-3 col-xs-6 " style="position: absolute; left: 540px; top: 0px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-travel.png'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/go_travel">旅行规划助手</a></h3>
+						<div class="meta">Django</div>
+						<div class="action"><a href="https://github.com/lihao2333/go_travel">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/go_travel"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item tool col-md-3 col-xs-6 " style="position: absolute; left: 540px; top: 0px; display: none;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-genrap.jpeg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/genRap">自动文字转歌曲的脚本</a></h3>
+						<div class="meta">Shell</div>
+						<div class="action"><a href="https://github.com/lihao2333/genRap">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/genRap"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item tool col-md-3 col-xs-6 " style="position: absolute; left: 810px; top: 0px; display: none;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-bupt.jpg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/TP_BUPT">北邮实验报告latex模板</a></h3>
+						<div class="meta">JavaScript</div>
+						<div class="action"><a href="https://github.com/lihao2333/TP_BUPT">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/TP_BUPT"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+			
+			<div class="item tool col-md-3 col-xs-6 " style="position: absolute; left: 810px; top: 0px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-tkinter.png'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/TP_MVC_TK">史密斯圆图的动态演示</a></h3>
+						<div class="meta">Tkinter</div>
+						<div class="action"><a href="https://github.com/lihao2333/TP_MVC_TK">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/TP_MVC_TK"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+			
+			<div class="item algorthm  col-md-3 col-xs-6 " style="position: absolute; left: 0px; top: 312px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-telcommunication.jpg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/TP_TelSimulation">通信系统仿真模板</a></h3>
+						<div class="meta">Matlab</div>
+						<div class="action"><a href="https://github.com/lihao2333/TP_TelSimulation">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/TP_TelSimulation"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+
+			<div class="item tool  col-md-3 col-xs-6 " style="position: absolute; left: 0px; top: 312px;">
+				<div class="item-inner">
+					<figure class="figure">
+						<img class="img-responsive" src="{%static 'resume/pro-rcclub.jpg'%}" alt="">
+					</figure>
+					<div class="content text-left">
+						<h3 class="sub-title"><a href="https://github.com/lihao2333/rcClub">linux下高效方案</a></h3>
+						<div class="meta">Matlab</div>
+						<div class="action"><a href="https://github.com/lihao2333/rcClub">View on Github</a></div>
+					</div><!--//content-->    
+					<a class="link-mask" href="https://github.com/lihao2333/rcClub"></a>              
+				</div><!--//item-inner-->
+			</div><!--//item-->
+			
+		</div><!--//item-wrapper-->
+		
+	</section><!--//section-->
+	
+	<section id="contact-section" class="contact-section section">
+		<h2 class="section-title">Get in Touch</h2>
+		<div class="intro">
+			<img class="profile-image" src="{%static 'resume/me2.png'%}" alt="">
+			<div class="dialog">
+				<p>目前我正在找工作当中,如果您觉得可能会需要我,请与我联系. 全职或者实习都可以,希望地点:北京,深圳,苏州,无锡,杭州</p>
+				<p><strong>我可以做这些</strong></p>
+				<ul class="list-unstyled service-list">
+					<li><i class="fa fa-check" aria-hidden="true"></i> 后端:django/python/redis</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 数据处理:python/awk/sed/jq</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 自动化脚本:shell</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 简单的爬虫</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 环境管理:docker/git</li>
+				</ul>
+                <p>可以发我邮件 <a href="mailto:903371710@qq.com">903371710@qq.com</a> 或者给我电话 <a href="tel:18810658188">18810658188</a> 或者加我微信:<a>lihao1996</a></p>
+			</div><!--//diaplog-->
+		</div><!--//intro-->
+
+	</section><!--//section-->
+	
+</div><!--//wrapper-->
+
+<!-- Javascript -->          
+<script type="text/javascript" src="{%static 'resume/jquery-1.12.4.min.js'%}"></script>
+<script type="text/javascript" src="{%static 'resume/bootstrap.min.js'%}"></script>  
+<script type="text/javascript" src="{%static 'resume/back-to-top.js'%}"></script>
+<script type="text/javascript" src="{%static 'resume/jquery.scrollTo.min.js'%}"></script> 
+<script type="text/javascript" src="{%static 'resume/jquery.easypiechart.min.js'%}"></script>
+<script type="text/javascript" src="{%static 'resume/imagesloaded.pkgd.min.js'%}"></script> 
+<script type="text/javascript" src="{%static 'resume/isotope.pkgd.min.js'%}"></script>  
+
+<!-- custom js -->
+<script type="text/javascript" src="{%static 'resume/main.js'%}"></script>
+
+<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+<script src="{%static 'resume/style-switcher.js'%}"></script>     
+
+
+<div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 1; cursor: pointer;"><i class="fa fa-angle-up"></i></div></body></html>
